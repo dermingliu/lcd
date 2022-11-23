@@ -124,6 +124,7 @@ try:
             time.sleep(5)
 #            disp.module_exit()
 #            logging.info("quit:")
+#
 except IOError as e:
     logging.info(e)    
 except KeyboardInterrupt:
